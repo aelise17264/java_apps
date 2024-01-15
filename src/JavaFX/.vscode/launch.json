@@ -1,19 +1,14 @@
 {
 	"version": "0.2.0",
-	"configurations": [
-		{
-			"vmArgs": "--module-path \"c:/Users/annam/Desktop/Linkedin Learning/lib\" --add-modules javafx.controls,javafx.fxml",
+    "configurations": [
+        {
 			"type": "java",
-			"name": "Launch Current File",
+			"name": "Current File",
 			"request": "launch",
-			"mainClass": "${file}"
+			"mainClass": "app",
+            "vmArgs": "--module-path \"c:/Users/annam/Desktop/Linkedin Learning/lib\" --add-modules javafx.controls",
+            "args": ""
 		},
-		{
-			"vmArgs": "--module-path \"c:/Users/annam/Desktop/Linkedin Learning/lib\" --add-modules javafx.controls,javafx.fxml",
-			"type": "java",
-			"name": "Launch App",
-			"request": "launch",
-			"mainClass": "App"
-		}
-	]
+		
+    ]
 }

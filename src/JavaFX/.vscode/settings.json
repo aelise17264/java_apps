@@ -5,13 +5,7 @@
 	"java.project.outputPath": "bin",
 	"java.project.referencedLibraries": [
 		"lib/**/*.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.base.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.controls.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.fxml.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.graphics.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.media.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.swing.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx.web.jar",
-		"c:/Users/annam/Desktop/Linkedin Learning/lib/javafx-swt.ja"
-	]
+		
+	],
+	"java.jdt.ls.java.home":"D:\\Downloads\\java-1.8.0-openjdk",
 }

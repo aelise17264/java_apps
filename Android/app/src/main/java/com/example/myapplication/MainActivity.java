@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onCllick(View view){
-                Log.i("HelloApp", "click");
+                // Log.i("HelloApp", "click");
+                TextInputEditText textInputEditText = findViewById(R.id.textInputEditText);
+                TextView textView = findViewById(R.id.textView);
+                String name = textInputEditText.getText().toString();
+                textView.setText(String.format("Hello %s!", name));
             }
         })
     }
